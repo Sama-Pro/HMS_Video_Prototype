@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HMS Video Prototype</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>🏥 Hospital Management System - Video Prototype</h1>
-    <p>Select a role to view the tutorial videos</p>
+    <h1>🏥 Hospital Management System (HMS) Video Prototype</h1>
+    <p>Select a user role to view demo videos.</p>
   </header>
 
   <main>
-    <section class="role-section">
-      <h2>👨‍⚕️ Doctor</h2>
-      <div class="video-grid">
-        <video controls src="videos/doctor/01a_op_appointment_main_final.mp4"></video>
-        <video controls src="videos/doctor/01b_op_edit_patient_screen_final.mp4"></video>
+    <!-- Doctor Section -->
+    <section>
+      <h2>👨‍⚕️ Doctor Videos</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AbCdEfGh123" 
+                title="Doctor Appointment Demo" frameborder="0" 
+                allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XyZ12345678" 
+                title="Edit Patient Screen Demo" frameborder="0" 
+                allowfullscreen></iframe>
       </div>
     </section>
 
-    <section class="role-section">
-      <h2>💁 Receptionist</h2>
-      <div class="video-grid">
-        <video controls src="videos/receptionist/02a_op_registration_main_final.mp4"></video>
-        <video controls src="videos/receptionist/02b_op_popup_registration_screen_final.mp4"></video>
+    <!-- Receptionist Section -->
+    <section>
+      <h2>💁 Receptionist Videos</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QwErTyUiOp9" 
+                title="Patient Registration Demo" frameborder="0" 
+                allowfullscreen></iframe>
       </div>
     </section>
 
-    <section class="role-section">
-      <h2>🛠️ Admin</h2>
-      <div class="video-grid">
-        <video controls src="videos/admin/02c_op_registration_field_final.mp4"></video>
-        <video controls src="videos/admin/02_op_add_patient_screen_final.mp4"></video>
+    <!-- Admin Section -->
+    <section>
+      <h2>🧑‍💼 Admin Videos</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LkJHgFDe321" 
+                title="Admin Control Panel Demo" frameborder="0" 
+                allowfullscreen></iframe>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 HMS Prototype | Built for demonstration</p>
+    <p>© 2025 HMS Prototype | Built for demonstration purposes</p>
   </footer>
 </body>
 </html>
-
